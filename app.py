@@ -44,6 +44,9 @@ if len(selected_skills) > 0:
     st.metric("Skills coverage", f"{percentage}%")
 else:
     st.warning("Please select at least one skill.")
+
+if "You have nothing?!" in selected_skills:
+    st.write("It can't be. Look at the skills more carefully.")
    
 # Radio button
 gender = st.radio("Select Gender:", ['Male', 'Female'])
