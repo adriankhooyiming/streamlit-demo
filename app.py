@@ -2,11 +2,11 @@ import streamlit as st
 from PIL import Image
 
 # App title
-st.title("Simple Streamlit Demo")
+st.title("Edited Demo Line")
 
 # Header and subheader
-st.header("Welcome to My App")
-st.subheader("An interactive Python web app")
+st.header("Welcome!")
+st.subheader("This is my Python web app")
 
 # Display text and markdown
 st.text("This is plain text.")
@@ -24,7 +24,7 @@ st.image(img, width=200)
 
 # Checkbox
 if st.checkbox("Show message"):
-   st.write("Checkbox is checked!")
+   st.write("Checked!")
    
 # Radio button
 gender = st.radio("Select Gender:", ['Male', 'Female'])
@@ -35,11 +35,11 @@ else:
     st.write("You have chosen Female")
 
 # Selectbox
-hobby = st.selectbox("Select a Hobby:", ['Dancing', 'Reading', 'Sports'])
+hobby = st.selectbox("Select a Hobby:", ['Dancing', 'Reading', 'Sports', 'Something else'])
 st.write("Your hobby is:", hobby)
 
 # Slider
-level = st.slider("Choose a level", 1, 5)
+level = st.slider("Choose a level", 1, 8)
 st.write(f"Selected level: {level}")
 
 # Text input
