@@ -43,6 +43,6 @@ level = st.slider("Choose a level", 1, 8)
 st.write(f"Selected level: {level}")
 
 # Text input
-name = st.text_input("Enter your name", "Type here...")
+name = st.text_input("Enter your name", "")
 if st.button("Submit"):
    st.success(f"Hello, {name.title()}!")
