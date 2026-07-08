@@ -25,7 +25,7 @@ st.image(img, width=200)
 # Dynamic checkboxes generated from a list
 st.subheader("Select your skills")
 
-skills = ["Python", "HTML", "Data Analysis", "AI", "Robotics", "OMG you have nothing?!"]
+skills = ["Python", "HTML", "Data Analysis", "AI", "Robotics", "You have nothing?!"]
 selected_skills = []  # empty list to collect selected skills
 
 # Loop through the list to create one checkbox per skill
